@@ -84,7 +84,8 @@ celerybeat-schedule
 # Environments
 .env
 .venv
-env/
+**/env/*
+!**/env/README.md
 venv/
 ENV/
 env.bak/
@@ -102,3 +103,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# terraform
+.terraform
